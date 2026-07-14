@@ -67,7 +67,7 @@ ESC            Exit/Menu
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PyQuest.git
+git clone https://github.com/deangelokailan123-m3o/PyQuest.git
 ```
 
 Open the project:
