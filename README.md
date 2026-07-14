@@ -1,52 +1,167 @@
-# 🏹 PyQuest Alpha 0.1
+# 🏹 PyQuest
 
-The adventure begins.
+> *A fantasy adventure game written in Python.*
 
-PyQuest is an original Python game built with Pygame that combines classic adventure gameplay with modern sandbox ideas. This first alpha introduces the foundation of the game while future updates will continue expanding the world.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pygame](https://img.shields.io/badge/Pygame-Latest-green)
+![Status](https://img.shields.io/badge/Status-Alpha%200.1-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 
-✨ Features
-🌍 2D Adventure Mode
-🧭 Experimental 3D Mode
-👤 Animated Player
-🕷️ Animated Spider Enemy
-🪙 Collectible Coins
-🌳 Tree Obstacles
-❤️ Health System
-🎒 Inventory System
-🏪 Interactive Shop
-⚔️ Animated Wooden Sword
-🎵 Background Music
-🏁 Quest Goal
-🖱️ Mouse & Keyboard Controls
-🚧 Planned Features
-Crafting
-Mining
-Block Placement
-Day & Night Cycle
-More Enemies
-NPC Villagers
-Boss Battles
-Save/Load System
-Multiplayer (Future)
-Large Open Worlds
-Dungeons
-Skills & Leveling
-Pets
-Farming
-Better 3D Engine
-Controls
-```WASD        Move
-Space       Attack
-E           Shop
-I           Inventory
-Mouse       Menus
-```Esc         Exit/Menu
-⚠️ Alpha Disclaimer
+---
 
-PyQuest Alpha 0.1 is an early development build.
+# 🌎 About
 
-This project is currently in active development and is not a finished game. Features may be incomplete, bugs are expected, gameplay systems may change, and save compatibility is not guaranteed between versions.
+PyQuest is an original fantasy adventure game developed in **Python** using **Pygame**.
 
-The purpose of this release is to establish the foundation of PyQuest and document its progress as development continues.
+Explore a growing world, collect treasure, battle enemies, visit shops, and experience both **2D** and **experimental 3D** gameplay.
 
-Thank you for trying the game and following its journey!
+PyQuest is currently in **Alpha**, meaning many features are still under development.
+
+---
+
+# ✨ Features
+
+- 🏹 2D Adventure Mode
+- 🌍 Experimental 3D Mode
+- 👤 Animated Player
+- 🕷️ Spider Enemy AI
+- ⚔️ Animated Wooden Sword
+- ❤️ Health System
+- 🪙 Collectible Coins
+- 🌳 Tree Obstacles
+- 🏪 Shop System
+- 🎒 Inventory
+- 🎵 Background Music
+- 🖱️ Mouse Support
+- ⌨️ Keyboard Controls
+
+---
+
+# 🎮 Controls
+
+## 2D
+
+```text
+W A S D    Move
+SPACE      Attack
+E          Shop
+I          Inventory
+ESC        Exit/Menu
+```
+
+## 3D
+
+```text
+W A S D        Move
+← →            Turn Camera
+SPACE          Attack
+E              Shop
+I              Inventory
+ESC            Exit/Menu
+```
+
+---
+
+# 🚀 Running PyQuest
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/PyQuest.git
+```
+
+Open the project:
+
+```bash
+cd PyQuest
+```
+
+Install Pygame:
+
+```bash
+pip install pygame
+```
+
+Run the game:
+
+```bash
+python main.py
+```
+
+---
+
+# 🗂 Project Structure
+
+```text
+PyQuest/
+│
+├── assets/
+│   ├── player_sheet.png
+│   ├── spider_sheet.png
+│   ├── coin_sheet.png
+│   ├── wooden_sword_sheet.png
+│   ├── tree.png
+│   └── music.wav
+│
+├── main.py
+├── pyquest_2d.py
+├── pyquest_3d.py
+└── README.md
+```
+
+---
+
+# 🛣 Roadmap
+
+## Alpha 0.1 ✅
+
+- 2D Gameplay
+- Experimental 3D Mode
+- Coins
+- Spider Enemy
+- Sword
+- Shop
+- Inventory
+
+## Future Updates
+
+- ⛏️ Mining
+- 🧱 Block Placement
+- 🌳 Procedural Worlds
+- 🌙 Day & Night
+- 🏠 Building
+- 🐺 More Enemies
+- 👥 NPCs
+- 💎 Crafting
+- 🏹 Better Combat
+- 🎵 More Music
+- 💾 Save System
+- 🌐 Multiplayer (Long-term)
+
+---
+
+# ⚠️ Alpha Notice
+
+PyQuest is **not a finished game**.
+
+This release is intended to showcase the foundation of the project. Bugs, unfinished systems, and changes between versions are expected.
+
+Feedback and ideas are always welcome!
+
+---
+
+# 📜 License
+
+Copyright © 2026 Kailan Deangelo
+
+All Rights Reserved.
+
+PyQuest is an original project. Please do not redistribute or sell the game's code or assets without permission.
+
+---
+
+# ❤️ Thanks for Playing!
+
+Every great adventure starts somewhere.
+
+**Welcome to PyQuest!**
