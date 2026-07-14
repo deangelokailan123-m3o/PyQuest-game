@@ -35,12 +35,12 @@ Pets
 Farming
 Better 3D Engine
 Controls
-` WASD        Move
+```WASD        Move
 Space       Attack
 E           Shop
 I           Inventory
 Mouse       Menus
-` Esc         Exit/Menu
+Esc         Exit/Menu```
 ⚠️ Alpha Disclaimer
 
 PyQuest Alpha 0.1 is an early development build.
